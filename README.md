@@ -1,4 +1,12 @@
-# ⚡ Geo-Fuel Cache API (Global Scale)
+# ⚡ Geo-Fuel Cache: Distributed Global Gateway
+
+## 📌 System Design
+A cloud-native caching layer built to handle global fuel price distribution. Focuses on sub-20ms latency and high availability for international logistics platforms.
+
+## 🚀 Core Features
+- **Goroutine Optimization:** Concurrent request handling with minimal memory overhead.
+- **In-Memory Caching:** Prevents redundant external API hits, reducing operational costs.
+- **Strict Typing:** Robust error handling and JSON schema validation for mission-critical data.
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
